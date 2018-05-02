@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[BookTransaction].[AuthorID] is being dropped, data loss could occur.
+       The column [dbo].[BookTransaction].[ISBN] is being dropped, data loss could occur.
+       The column [dbo].[BookTransaction].[StudentID] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       [dbo].[BookAuthorID] (Foreign Key)
+       [dbo].[FK_StudentID] (Foreign Key)
+     Alter
+       [dbo].[BookTransaction] (Table)
+       [dbo].[Students] (Table)
+     Create
+       [dbo].[FK_AuthorID] (Foreign Key)
+
+** Supporting actions
+
+The column [dbo].[BookTransaction].[AuthorID] is being dropped, data loss could occur.
+The column [dbo].[BookTransaction].[ISBN] is being dropped, data loss could occur.
+The column [dbo].[BookTransaction].[StudentID] is being dropped, data loss could occur.
+

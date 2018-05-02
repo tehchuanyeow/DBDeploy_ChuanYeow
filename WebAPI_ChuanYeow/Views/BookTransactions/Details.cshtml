@@ -1,0 +1,18 @@
+﻿@model WebAPI_ChuanYeow.Models.BookTransaction
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BookTransaction</h4>
+    <hr />
+    <dl class="dl-horizontal">
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.BorrowingCard }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

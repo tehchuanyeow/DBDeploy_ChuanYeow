@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Database_Deploy_CYEntities-Web.config Connection String" description="Database_Deploy_CYEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.CYModel.csdl|res://*/Models.CYModel.ssdl|res://*/Models.CYModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=database-class.database.windows.net;initial catalog=Database_Deploy_CY;user id=chuanyeow;password=Toytproductions147852369;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\User\\Desktop\\Week08_ChuanYeow\\DBDeploy_ChuanYeow\\WebAPI_ChuanYeow\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Database_Deploy_CYEntities']/@connectionString" />
+  </parameter>
+</parameters>

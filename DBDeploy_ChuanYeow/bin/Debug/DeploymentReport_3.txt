@@ -1,0 +1,30 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Book]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column ISBN in table [dbo].[Author] is currently  NVARCHAR (30) NOT NULL but is being changed to  VARCHAR
+         (30) NOT NULL. Data loss could occur.
+       The type for column ISBN in table [dbo].[Book] is currently  NVARCHAR (30) NOT NULL but is being changed to  INT NOT
+         NULL. Data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[Author] (Table)
+       [dbo].[Students] (Table)
+     Table rebuild
+       [dbo].[Book] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_AuthorID] (Foreign Key)
+     Create
+       [dbo].[FK_AuthorID] (Foreign Key)
+
+The type for column ISBN in table [dbo].[Author] is currently  NVARCHAR (30) NOT NULL but is being changed to  VARCHAR (30) NOT NULL. Data loss could occur.
+The type for column ISBN in table [dbo].[Book] is currently  NVARCHAR (30) NOT NULL but is being changed to  INT NOT NULL. Data loss could occur.
+The column AuthorID on table [dbo].[Students] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+
